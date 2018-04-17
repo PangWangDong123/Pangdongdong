@@ -1,0 +1,5 @@
+<!--pages/dianying/more-movie/more-movie.wxml-->
+<!-- <text>pages/dianying/more-movie/more-movie.wxml</text> -->
+  <import src="../movie-grid/movie-grid-template.wxml"/>
+<template is="movieGridTemplate" data="{{movies}}"/>
+<!--data数据变量  -->
